@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  27 NOV 2022 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  27 NOV 2022 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -185,45 +185,77 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
+(Font)              <5> on input line 21.
 
 
-Overfull \hbox (18.51624pt too wide) in paragraph at lines 27--28
-[]\OT1/cmr/m/n/10 https://drive.google.com/file/d/1O27QpQU2-oN4NUHeOZOFmLFFMmp7
-cm3I 
- []
+Package natbib Warning: Citation `cancerResearchUK2019' on page 1 undefined on 
+input line 27.
+
+
+Package natbib Warning: Citation `macrotrends2022' on page 1 undefined on input
+ line 29.
+
+
+Package natbib Warning: Citation `philippinestatisticsauthority2021' on page 1 
+undefined on input line 29.
+
+
+Package natbib Warning: Citation `IQAir2022' on page 1 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `doh2021' on page 1 undefined on input line 29
+.
+
+
+Package natbib Warning: Citation `gupta2022' on page 1 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `radhika2019' on page 1 undefined on input lin
+e 35.
 
 [1
 
 {C:/Users/Aren Deza/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2] (Mini_Project_Proposal.bbl [3]) [4
 
-] (Mini_Project_Proposal.aux) ) 
+Package natbib Warning: Citation `devastator2022' on page 2 undefined on input 
+line 41.
+
+[2] (Mini_Project_Proposal.bbl [3])
+
+Package natbib Warning: There were undefined citations.
+
+[4
+
+] (Mini_Project_Proposal.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+) ) 
 Here is how much of TeX's memory you used:
  1324 strings out of 478338
- 21577 string characters out of 2834776
+ 21689 string characters out of 2834776
  333025 words of memory out of 3000000
  19808 multiletter control sequences out of 15000+600000
  472064 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,7n,52p,1270b,223s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/
-pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Are
-n Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
-:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr9.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on Mini_Project_Proposal.pdf (4 pages, 91151 bytes).
+ 48i,6n,52p,1270b,223s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aren Deza/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aren De
+za/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Us
+ers/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
+10.pfb>
+Output written on Mini_Project_Proposal.pdf (4 pages, 103590 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
