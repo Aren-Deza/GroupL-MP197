@@ -1,0 +1,60 @@
+% CMSC 197-1. Machine Learning. Mini Project Proposal
+% Submitted by: Alyssa Alexandra Lee, Aren Deza, Victor Sumbong
+
+% This is the documentclass used in ma'am's sample. 
+% It makes the title and authors appear at the top of each page, so that it's easier to read when printed.
+\documentclass[runningheads]{llncs}
+
+% Formatting packages
+\usepackage{indentfirst}
+% Reference packages
+\usepackage[square, sort, comma, numbers]{natbib}
+
+\begin{document}
+
+\title{\textbf{\LARGE A Comparative Study on Lung Cancer Prediction using Naïve Bayes and Logistic Regression}}
+
+\author{Alyssa Alexandra Lee\inst{1}\and Aren Deza\inst{1}\and Joseph Victor Sumbong\inst{1}}
+\authorrunning{A. Lee et al.}
+\titlerunning{Lung Cancer Prediction using Naïve Bayes and Logistic Regression}
+\institute{University of The Philippines Visayas, Miag-ao, Iloilo City}
+\maketitle
+
+\pagenumbering{roman}
+\pagenumbering{arabic}
+
+\section{Description of The Project}
+Lung cancer is a disease characterized by a malignant growth or tumor formed from the uncontrollable division of abnormal cells, specifically within the lungs \cite{cancerResearchUK2019}. It is known to be the most common type of cancer and is also the main cause of cancer death globally. The chance to get and develop this disease increases with a myriad of factors such as tobacco smoking, exposure to chemicals in the workplace, long-term exposure to air pollution, exposure to radon gas, having a family history of lung cancer, etc.
+
+In the Philippines, it is common to see a person smoking as you walk down the street. According to MacroTrends \cite{macrotrends2022}, the prevalence of Filipino smokers aged 15 and above on a daily or non-daily basis is 22.90\% in the year 2020. The population density in the Philippines is also greatest in the National Capital Region with 21,765 persons per square kilometer \cite{philippinestatisticsauthority2021}. This region also accounts for 13,484,462 persons of the 109,033,245 or 12.37\% total population of the country. In NCR, the most densely populated city was Manila with 73,920 persons per square kilometer. According to IQAir \cite{IQAir2022}, in 2019, Manila had an average of 18.2 µg/m³ of PM2.5 or particulate matter under 2.5 micrometers which poses health concerns. This recording placed them under the “Moderate” category of the World Health Organization (WHO). However, with the lockdown being lifted and traffic becoming more of a problem, the air quality is forecasted to worsen. In a press release by the  Department of Health in 2021 \cite{doh2021}, Lung cancer is the 2nd leading type of cancer in the country and is the leading cause of mortality in all cancer types.
+
+If it is identified and diagnosed in its earliest stages, lung cancer can fortunately be treated. However, a patient suffering from lung cancer can be asymptomatic while the disease is in its earlier stages of progression, which can make it difficult to detect. For this reason, having the ability to quickly and reliably predict whether a patient may have or is at risk of contracting lung cancer can be invaluable in reducing their chances of dying from the disease.
+
+Therefore, the researchers aim to use machine learning technology to identify significant factors among lung cancer patients and construct a model that can be used to predict and evaluate an individual's risk of contracting the disease while choosing the best machine learning algorithm that the researchers have learned.
+
+There have been studies such as “A Study On Prediction Of Lung Cancer Using Machine Learning Algorithms” by Gupta et al. \cite{gupta2022} which compared 3 machine learning algorithms in their ability to predict lung cancer, however, their dataset was biomedical images and they had an image processing step. Other similar studies also used a collection of labeled images for their dataset. A similar study that did not utilize an image dataset is “A Comparative Study of Lung Cancer Detection using Machine Learning Algorithms” by Radhika et al. \cite{radhika2019} It used SVM, Logistic Regression, Naïve Bayes, and Decision Tree machine learning algorithms as well as a different dataset than the researchers will use. This paper differs due to its different dataset as well as the machine learning algorithms that will be utilized and compared.
+
+\section{Proposed Method}
+
+To fulfill our intended goal of predicting lung cancer, we will compare the performance of various machine learning algorithms such as Naïve Bayes and Logistic Regression. 
+
+Features such as age, gender, level of air pollution exposure, level of alcohol use, level of dust allergy, level of occupational hazards, level of genetic risk, level of chronic lung disease, level of balanced diet, level of obesity, level of smoking, level of passive smoker, level of chest pain, level of coughing of blood, level of fatigue, level of weight loss, level of shortness of breath, level of wheezing, level of swallowing difficulty, and level of clubbing of finger nails will serve as predictors to the model \cite{devastator2022}. 75\% of the dataset will be the training set while the other 25\% will be the test set.
+
+\section{Dataset}
+
+The dataset contains information on patients with lung cancer. This includes background information such as their age, gender, exposure to air pollution, alcohol use, occupational hazards, genetic risk, balanced diet, obesity, history of smoking or passive smoking, and presence of dust allergies and chronic lung disease. It also provides data of their lung cancer symptoms based on severity, which includes chest pain, coughing of blood, fatigue, weight loss, shortness of breath, wheezing, difficulty swallowing, clubbing of finger nails, snoring, and the level of lung cancer. This dataset was retrieved from the website, Kaggle (https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link). 
+
+\section{Metrics of Evaluation}
+
+Since this mini-project utilizes the classification technique, the performance of the created model will be measured by its accuracy, precision, recall, f1-score, and confusion matrix.
+
+\section{Tools and Packages}
+
+In order to conduct this study, the researchers will make use of the following tools: (1) Jupyter Notebook, (2) Google Docs, and (3) TeXworks. Jupyter Notebook is where the model will be built. Google Docs and TeXworks are utilized for the creation of the documents. 
+
+The LaTeX packages used are the following: (1) color, (2) graphicx, (3) amsmath, (4) listings, (5) pdflscape, (6) geometry, and (7) natbib. In order to follow a LaTeX template, these packages should be installed. The Python packages that will be employed are: (1) Pandas, (2) NumPy, (3) scikit-learn, (4) Matplotlib, and (5) StatsModels. These packages are necessary in Naïve Bayes and Logistic Regression. 
+
+\bibliographystyle{apa}
+\bibliography{Mini_Project_Bibliography}
+
+\end{document}
