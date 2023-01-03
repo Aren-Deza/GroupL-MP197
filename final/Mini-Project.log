@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  3 JAN 2023 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  3 JAN 2023 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -323,91 +323,79 @@ File: figures//naivebayes-CM-testing.png Graphic file (type png)
 Package pdftex.def Info: figures//naivebayes-CM-testing.png  used on input line
  187.
 (pdftex.def)             Requested size: 170.63707pt x 131.49092pt.
- [7 <./figures//naivebayes-CM-testing.png>]
-<figures//datavis-train.png, id=41, 158.16806pt x 99.93909pt>
+<figures//datavis-train.png, id=36, 158.16806pt x 99.93909pt>
 File: figures//datavis-train.png Graphic file (type png)
 <use figures//datavis-train.png>
-Package pdftex.def Info: figures//datavis-train.png  used on input line 199.
-(pdftex.def)             Requested size: 355.87724pt x 224.86235pt.
-
-Overfull \hbox (8.75371pt too wide) in paragraph at lines 199--201
- [][] 
- []
-
-<figures//datavis-test.png, id=42, 158.16806pt x 99.93909pt>
+Package pdftex.def Info: figures//datavis-train.png  used on input line 202.
+(pdftex.def)             Requested size: 316.33533pt x 199.87766pt.
+<figures//datavis-test.png, id=37, 158.16806pt x 99.93909pt>
 File: figures//datavis-test.png Graphic file (type png)
 <use figures//datavis-test.png>
-Package pdftex.def Info: figures//datavis-test.png  used on input line 208.
-(pdftex.def)             Requested size: 355.87724pt x 224.86235pt.
-
-Overfull \hbox (8.75371pt too wide) in paragraph at lines 208--210
- [][] 
- []
-
-[8 <./figures//datavis-train.png>]
-<figures//fta-high.png, id=47, 700.6175pt x 412.54124pt>
+Package pdftex.def Info: figures//datavis-test.png  used on input line 211.
+(pdftex.def)             Requested size: 316.33533pt x 199.87766pt.
+<figures//fta-high.png, id=38, 700.6175pt x 412.54124pt>
 File: figures//fta-high.png Graphic file (type png)
 <use figures//fta-high.png>
-Package pdftex.def Info: figures//fta-high.png  used on input line 220.
+Package pdftex.def Info: figures//fta-high.png  used on input line 222.
 (pdftex.def)             Requested size: 350.30789pt x 206.27011pt.
 
-Overfull \hbox (3.18436pt too wide) in paragraph at lines 220--222
+Overfull \hbox (3.18436pt too wide) in paragraph at lines 222--224
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures//fta-low.png, id=48, 700.6175pt x 412.54124pt>
+[7 <./figures//naivebayes-CM-testing.png>] [8 <./figures//datavis-train.png> <.
+/figures//datavis-test.png>]
+<figures//fta-low.png, id=49, 700.6175pt x 412.54124pt>
 File: figures//fta-low.png Graphic file (type png)
 <use figures//fta-low.png>
-Package pdftex.def Info: figures//fta-low.png  used on input line 227.
+Package pdftex.def Info: figures//fta-low.png  used on input line 233.
 (pdftex.def)             Requested size: 350.30789pt x 206.27011pt.
 
-Overfull \hbox (3.18436pt too wide) in paragraph at lines 227--229
+Overfull \hbox (3.18436pt too wide) in paragraph at lines 233--235
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures//fta-medium.png, id=49, 700.6175pt x 412.54124pt>
+<figures//fta-medium.png, id=50, 700.6175pt x 412.54124pt>
 File: figures//fta-medium.png Graphic file (type png)
 <use figures//fta-medium.png>
-Package pdftex.def Info: figures//fta-medium.png  used on input line 234.
+Package pdftex.def Info: figures//fta-medium.png  used on input line 242.
 (pdftex.def)             Requested size: 350.30789pt x 206.27011pt.
 
-Overfull \hbox (3.18436pt too wide) in paragraph at lines 234--236
+Overfull \hbox (3.18436pt too wide) in paragraph at lines 242--244
  [][] 
  []
 
+[9 <./figures//fta-high.png>] [10 <./figures//fta-low.png> <./figures//fta-medi
+um.png>]
+Underfull \vbox (badness 2158) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ [11]
+(Mini-Project.bbl [12]) [13
 
-[9 <./figures//datavis-test.png>] [10 <./figures//fta-high.png>] [11 <./figures
-//fta-low.png>] (Mini-Project.bbl [12 <./figures//fta-medium.png>]) [13
+] (Mini-Project.aux)
 
-]
-(Mini-Project.aux) ) 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  2952 strings out of 478338
  51521 string characters out of 2834776
- 358288 words of memory out of 3000000
+ 359287 words of memory out of 3000000
  21349 multiletter control sequences out of 15000+600000
  473896 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,67p,1267b,248s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aren Deza/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/A
-ren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr9.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Mini-Project.pdf (13 pages, 246007 bytes).
+ <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Aren Deza/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aren De
+za/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
+ers/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9
+.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb>
+Output written on Mini-Project.pdf (13 pages, 245799 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

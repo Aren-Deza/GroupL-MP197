@@ -151,7 +151,7 @@ weighted avg & 0.85 & 0.85 & 0.85 & 750 \\ \hline
 \label{tab:naivebayes-training}
 \end{table}
 
-When used on the training set, the Naive Bayes model possessed an 84.93\% accuracy, with macro average precision, recall, f1-score of 85\%. 
+In the training set, the Naive Bayes model had 84.93\% accuracy with macro average precision, recall, f1-score of 85\%. 
 
 \begin{figure}[ht]           	 
 \centering               	 
@@ -160,7 +160,7 @@ When used on the training set, the Naive Bayes model possessed an 84.93\% accura
 \label{fig:naivebayes-CM-training}
 \end{figure}
 
-The confusion matrix generated showed that it had correctly identified the majority of each class. However, the model produced some misidentifications. All classes where the highest mistake was 12 Medium risk were incorrectly labeled as High by the model. 
+The confusion matrix in the training set showed that the majority of the results laid on the hypotenuse which showed that it was fairly accurate in its predictions. The highest error it had in its prediction was predicting 48 Medium Risk being labeled as High Risk.
 \newpage
 
 \begin{table}[ht]
@@ -179,7 +179,7 @@ weighted avg & 0.85 & 0.85 & 0.85 & 250 \\ \hline
 \label{tab:naivebayes-testing}
 \end{table}
 
-In the testing set, the model had an accuracy of 84.8\%, with macro average precision being 85\%, and both recall and f1-score being 84\%. These results show that the Naive Bayes model is fairly accurate, and has the capacity to be a good model for predicting the likelihood with which a patient may contract lung cancer.
+In the testing set, the model had an accuracy of 84.8\%, with macro average precision being 85\%, and both recall and f1-score being 84\%.
 
 \begin{figure}[ht]           	 
 \centering               	 
@@ -187,61 +187,63 @@ In the testing set, the model had an accuracy of 84.8\%, with macro average prec
 \includegraphics[scale=0.5]{naivebayes-CM-testing.png}  	 
 \label{fig:naivebayes-CM-testing}
 \end{figure}
-\newpage
+
+The confusion matrix generated showed that it had correctly identified the majority of each class. However, the model produced some misidentifications. All classes where the highest mistake was 12 Medium risk were incorrectly labeled as High by the model. 
+
+These results show that the Naive Bayes model is fairly accurate, and has the capacity to be a good model for predicting the likelihood with which a patient may contract lung cancer.
 
 \subsection{Data Visualization}
 
 % Training Set
 
-\begin{figure}[ht]           	 
+\begin{figure}[!htb]           	 
 \centering               	 
 \caption{Comparison Between Logistic Regression and Naive Bayes in the Training Set} \vspace{0.5em}
-\includegraphics[scale=2.25]{datavis-train.png}  	 
+\includegraphics[scale=2]{datavis-train.png}  	 
 \label{fig:datavis_train}
 \end{figure}
 
 % Testing Set
 
-\begin{figure}[ht]           	 
+\begin{figure}[!htb]           	 
 \centering          	 
 \caption{Comparison Between Logistic Regression and Naive Bayes in the Testing Set} \vspace{0.5em}
-\includegraphics[scale=2.25]{datavis-test.png}  	 
+\includegraphics[scale=2]{datavis-test.png}  	 
 \label{fig:datavis_test}
 \end{figure}
 
 As seen in the figures presented here, Logistic Regression gained a higher score on all metrics of evaluation on both train and testing sets. While Naive Bayes has performed well on its metrics, the results showed that Logistic Regression is the better algorithm in identifying an individual’s likelihood of developing lung cancer.
-\newpage
 
 \subsection{Logistic Regression Feature Analysis}
 
-\begin{figure}[h]           	 
+\begin{figure}[!htb]           	 
 \centering               	 
 \caption{Correlation of Factors and High Risk}
 \includegraphics[scale=0.5]{fta-high.png}  	 
 \label{fig:fta-high}
 \end{figure}
 
-\begin{figure}[h]           	 
+Since Logistic Regression was seen as the better model to predict the likelihood of an individual to develop lung cancer, the weights for each feature for each class were analyzed and the resulting figures were made.
+
+In high risk patients (Figure \ref{fig:fta-high}), it can be observed that the top 3 factors with the strongest correlation include \textbf{Fatigue} (3.179506), \textbf{Passive Smoking} (2.541472), and \textbf{Exposure to Air Pollution} (1.960435). Each of these 3 features possess very strong positive correlations, with Fatigue presenting itself as the best possible predictor for a high risk of lung cancer. Findings also indicate that factors such as Chest pain, Occupational hazards, Dust allergies, and Gender possess weak negative correlations with having a high risk of lung cancer, and Age possesses a medium negative correlation with having a high risk of lung cancer.
+
+\begin{figure}[!htb]           	 
 \centering               	 
 \caption{Correlation of Factors and Low Risk}
 \includegraphics[scale=0.5]{fta-low.png}  	 
 \label{fig:fta-low}
 \end{figure}
 
-\begin{figure}[h]           	 
+In low risk patients (Figure \ref{fig:fta-low}), it can be observed that the top 3 factors with the highest correlation include \textbf{Fatigue} (-3.414484), \textbf{Clubbing of Finger Nails} (-2.858945), and \textbf{Wheezing} (-2.696070), each possessing strong negative correlations. The findings also show that factors such as Gender and Chest Pain possess weak positive correlations with having a low risk of lung cancer.
+
+\begin{figure}[!htb]           	 
 \centering               	 
 \caption{Correlation of Factors and Medium Risk}
 \includegraphics[scale=0.5]{fta-medium.png}  	 
 \label{fig:fta-medium}
 \end{figure}
 
-Since Logistic Regression was seen as the better model to predict the likelihood of an individual to develop lung cancer, the weights for each feature for each class were analyzed and the resulting figures were made.
-
-In high risk patients (Figure \ref{fig:fta-high}), it can be observed that the top 3 factors with the strongest correlation include \textbf{Fatigue} (3.179506), \textbf{Passive Smoking} (2.541472), and \textbf{Exposure to Air Pollution} (1.960435). Each of these 3 features possess very strong positive correlations, with Fatigue presenting itself as the best possible predictor for a high risk of lung cancer. Findings also indicate that factors such as Chest pain, Occupational hazards, Dust allergies, and Gender possess weak negative correlations with having a high risk of lung cancer, and Age possesses a medium negative correlation with having a high risk of lung cancer.
-
-In low risk patients (Figure \ref{fig:fta-low}), it can be observed that the top 3 factors with the highest correlation include \textbf{Fatigue} (-3.414484), \textbf{Clubbing of Finger Nails} (-2.858945), and \textbf{Wheezing} (-2.696070), each possessing strong negative correlations. The findings also show that factors such as Gender and Chest Pain possess weak positive correlations with having a low risk of lung cancer.
-
-In medium risk patients (Figure \ref{fig:fta-medium}), it can be observed that the top 3 factors with the highest correlation include \textbf{Fatigue} (0.234977), \textbf{Passive Smoking} (-0.825177), and \textbf{Coughing of Blood} (-0.498174), with each of these factors possessing strong positive correlations with a medium risk of lung cancer. It is also worth noting that factors such as Age, Dust Allergies, and Chest Pain possess weak negative correlations with a medium risk of lung cancer.
+In medium risk patients (Figure \ref{fig:fta-medium}), it can be observed that the top 3 factors with the highest correlation include \textbf{Fatigue} (0.234977), \textbf{Passive Smoking} (0.825177), and \textbf{Coughing of Blood} (0.498174), with each of these factors possessing strong positive correlations with a medium risk of lung cancer. It is also worth noting that factors such as Age, Dust Allergies, and Chest Pain possess weak negative correlations with a medium risk of lung cancer.
 Based on what has been displayed by the findings, Fatigue has consistently displayed itself as a suitable predictor when determining a patient's risk of contracting lung cancer, displaying strong positive correlations for high and medium risk patients, and strong negative correlations for patients with low risk.
 
 \section{Conclusion}
