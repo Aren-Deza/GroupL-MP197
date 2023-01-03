@@ -66,7 +66,7 @@ The dataset contains information on patients with lung cancer. This includes bac
 To use this dataset for the purpose of this study, the researchers excluded the columns of \textit{Patient Id, Frequent Cold, Snoring,} and \textit{Dry Cough}. The remaining columns excluding Level are designated as the features that are of interest, while the Level column values are used as the true label. The values of the features were then standardized. The manipulated dataset was then split with a 1:3 ratio, resulting in 75\% of the entries being the training set and 25\% being the testing set. 
 
 \subsection{Implementation of Machine Learning Models}
-The machine learning models to be used in this paper are Logistic Regression and Naive Bayes. The scikit-learn library was used to create these models, specifically, the LogisticRegression function for the creation of the Logistic Regression Model which is not only binary but is able to predict multiple outcomes, and the GaussianNB function for the creation of the Naive Bayes model which can also predict multiple outcomes. They were both trained using the same training set as mentioned in the Dataset portion of this paper.
+The machine learning models to be used in this paper are Logistic Regression and Naive Bayes. The scikit-learn library was used to create these models, specifically, the Logistic Regression function for the creation of the Logistic Regression Model which is not only binary but is able to predict multiple outcomes, and the GaussianNB function for the creation of the Naive Bayes model which can also predict multiple outcomes. They were both trained using the same training set as mentioned in the Dataset portion of this paper.
 
 \subsection{Metrics of Evaluation}
 Each of the created model’s performance was measured based on their accuracy, precision, recall, f1-score, and confusion matrix for both their training and testing sets. The evaluation was done using sklearn’s accuracy\_score, classification\_report, and confusion\_matrix function, while its ConfusionMatrixDisplay function was used to show the confusion matrix.
@@ -188,11 +188,11 @@ In the testing set, the model had an accuracy of 84.8\%, with macro average prec
 \label{fig:naivebayes-CM-testing}
 \end{figure}
 
-The confusion matrix generated showed that it had correctly identified the majority of each class. However, the model produced some misidentifications. All classes where the highest mistake was 12 Medium risk were incorrectly labeled as High by the model. 
+The confusion matrix generated showed that it had correctly identified the majority of each class. However, the model produced some misidentifications wherein all classes whose highest mistake was 12 Medium risk were incorrectly labeled as High by the model. 
 
 These results show that the Naive Bayes model is fairly accurate, and has the capacity to be a good model for predicting the likelihood with which a patient may contract lung cancer.
 
-\subsection{Data Visualization}
+\subsection{Comparison of Models}
 
 % Training Set
 
@@ -212,7 +212,7 @@ These results show that the Naive Bayes model is fairly accurate, and has the ca
 \label{fig:datavis_test}
 \end{figure}
 
-As seen in the figures presented here, Logistic Regression gained a higher score on all metrics of evaluation on both train and testing sets. While Naive Bayes has performed well on its metrics, the results showed that Logistic Regression is the better algorithm in identifying an individual’s likelihood of developing lung cancer.
+As seen in the figures presented here, Logistic Regression gained a higher score on all metrics of evaluation on both the training and testing sets. While Naive Bayes has performed well on its own metrics, the results showed that Logistic Regression is the better algorithm for identifying an individual’s likelihood of developing lung cancer.
 
 \subsection{Logistic Regression Feature Analysis}
 
@@ -223,9 +223,9 @@ As seen in the figures presented here, Logistic Regression gained a higher score
 \label{fig:fta-high}
 \end{figure}
 
-Since Logistic Regression was seen as the better model to predict the likelihood of an individual to develop lung cancer, the weights for each feature for each class were analyzed and the resulting figures were made.
+As Logistic Regression was selected as the better model for predicting the likelihood that an individual may develop lung cancer, the weights of each feature for each class were analyzed, producing the following figures in this section.
 
-In high risk patients (Figure \ref{fig:fta-high}), it can be observed that the top 3 factors with the strongest correlation include \textbf{Fatigue} (3.179506), \textbf{Passive Smoking} (2.541472), and \textbf{Exposure to Air Pollution} (1.960435). Each of these 3 features possess very strong positive correlations, with Fatigue presenting itself as the best possible predictor for a high risk of lung cancer. Findings also indicate that factors such as Chest pain, Occupational hazards, Dust allergies, and Gender possess weak negative correlations with having a high risk of lung cancer, and Age possesses a medium negative correlation with having a high risk of lung cancer.
+In high risk patients (Figure \ref{fig:fta-high}), it can be observed that the top 3 factors with the strongest correlation include \textbf{Fatigue} (3.179506), \textbf{Passive Smoking} (2.541472), and \textbf{Exposure to Air Pollution} (1.960435). Each of these three features possess very strong positive correlations, with Fatigue presenting itself as the best possible predictor for a high risk of lung cancer. Findings also indicate that factors such as Chest pain, Occupational hazards, Dust allergies, and Gender possess weak negative correlations with having a high risk of lung cancer, and Age possesses a medium negative correlation with having a high risk of lung cancer.
 
 \begin{figure}[!htb]           	 
 \centering               	 
@@ -254,9 +254,9 @@ At the end of the study the researchers were able to implement a Machine learnin
 	
 Logistic Regression proved to be the better model in predicting the level of lung cancer in both training and testing sets. While this high accuracy of 98.4\% in the testing set may initially seem unrealistic, the precision, recall, and f1-scores also exhibited high results (98\% macro average for all mentioned measures in the testing set), showing it was capable of identifying the classes correctly which outperformed Naive Bayes in all metrics (accuracy of 84.8\% and 85\% macro average of precision, recall, and f1-score in the testing set). The imbalance is also ruled out by the fact that the dataset had a close amount of each class. These results are supported by how Logistic Regression sees much practical use as a prediction algorithm in machine learning, and is most ideal when applied to these types of problems \cite{cai2006prediction}. Therefore, it can be safely concluded that Logistic Regression models are more effective at predicting a person’s likelihood of developing lung cancer compared to Naive Bayes models.
 
-Furthermore, the feature analysis showed that the top 3 factors that can be used to predict whether a patient has a high risk of contracting lung cancer are fatigue (3.179506), passive smoking (2.541472), and exposure to air pollution (1.960435). Meanwhile, the top 3 factors that can be utilized to predict whether a patient has a low risk of contracting lung cancer are fatigue (-3.414484), clubbing of finger nails (-2.858945), and wheezing (-2.696070). To predict whether a patient has a medium risk of contracting lung cancer, the top 3 factors that can be used are fatigue (0.234977), passive smoking (-0.825177), and coughing of blood (-0.498174). Based on the findings, Fatigue has consistently displayed itself as a suitable predictor when determining a patient's risk of contracting lung cancer, displaying strong positive correlations for high and medium risk patients, and strong negative correlations for patients with low risk
+Furthermore, the feature analysis showed that the top 3 factors that can be used to predict whether a patient has a high risk of contracting lung cancer are fatigue (3.179506), passive smoking (2.541472), and exposure to air pollution (1.960435). Meanwhile, the top 3 factors that can be used to predict whether a patient has a low risk of contracting lung cancer are fatigue (-3.414484), clubbing of finger nails (-2.858945), and wheezing (-2.696070). To predict whether a patient has a medium risk of contracting lung cancer, the top 3 factors that can be used are fatigue (0.234977), passive smoking (-0.825177), and coughing of blood (-0.498174). Based on the findings, Fatigue has consistently displayed itself as a suitable predictor when determining a patient's risk of contracting lung cancer, displaying strong positive correlations for high and medium risk patients, and strong negative correlations for patients with low risk
 	
-Given similar data found in the dataset, the model built in the study can accurately predict an individual’s likelihood of developing lung cancer Even without the model to make predictions, the study provided information about an individual experiencing a level of fatigue, exposure to air pollution, and passively smoke has an increased likelihood in developing lung cancer.  
+Given similar data found in the dataset, the model that was built in this study can accurately predict an individual’s likelihood of developing lung cancer. Even without the model to make predictions, the study provided pertinent information about individuals experiencing fatigue, with a history of passive smoking and exposure to air pollution.
 
 \subsection{Recommendations}
 

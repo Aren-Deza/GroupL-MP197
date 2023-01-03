@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  3 JAN 2023 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  3 JAN 2023 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,11 +372,7 @@ Underfull \vbox (badness 2158) has occurred while \output is active []
  [11]
 (Mini-Project.bbl [12]) [13
 
-] (Mini-Project.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (Mini-Project.aux) ) 
 Here is how much of TeX's memory you used:
  2952 strings out of 478338
  51521 string characters out of 2834776
@@ -385,17 +381,17 @@ Here is how much of TeX's memory you used:
  473896 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,67p,1267b,248s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Aren Deza/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aren De
-za/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9
-.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb>
-Output written on Mini-Project.pdf (13 pages, 245799 bytes).
+ <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aren Deza/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users
+/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Mini-Project.pdf (13 pages, 245635 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
