@@ -1,0 +1,415 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  3 JAN 2023 15:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Mini-Project.tex
+(Mini-Project.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04>
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/llncs\llncs.cls
+Document Class: llncs 2022/09/05 v2.22 
+ LaTeX document class for Lecture Notes in Computer Science
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count193
+\mult@box=\box51
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count268
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\aliascnt.s
+ty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count269
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+LaTeX Info: Redefining \vec on input line 377.
+\tocchpnum=\dimen148
+\tocsecnum=\dimen149
+\tocsectotal=\dimen150
+\tocsubsecnum=\dimen151
+\tocsubsectotal=\dimen152
+\tocsubsubsecnum=\dimen153
+\tocsubsubsectotal=\dimen154
+\tocparanum=\dimen155
+\tocparatotal=\dimen156
+\tocsubparanum=\dimen157
+\@tempcntc=\count270
+\fnindent=\dimen158
+\c@@inst=\count271
+\c@@auth=\count272
+\c@auco=\count273
+\instindent=\dimen159
+\authrun=\box96
+\authorrunning=\toks16
+\tocauthor=\toks17
+\titrun=\box97
+\titlerunning=\toks18
+\toctitle=\toks19
+\c@theorem=\count274
+\c@case=\count275
+\c@conjecture=\count276
+\c@corollary=\count277
+\c@definition=\count278
+\c@example=\count279
+\c@exercise=\count280
+\c@lemma=\count281
+\c@note=\count282
+\c@problem=\count283
+\c@property=\count284
+\c@proposition=\count285
+\c@question=\count286
+\c@solution=\count287
+\c@remark=\count288
+\headlineindent=\dimen160
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.s
+ty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count289
+\float@exts=\toks20
+\float@box=\box98
+\@float@everytoks=\toks21
+\@floatcapt=\box99
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count290
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+\l__pdf_internal_box=\box100
+) (Mini-Project.aux)
+\openout1 = `Mini-Project.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen163
+\scratchbox=\box101
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen164
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks24
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
+finekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
+.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetke
+ys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\Aren Deza\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-s
+ys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 25.
+ [1
+
+{C:/Users/Aren Deza/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 81.
+<figures//regression-CM-training.png, id=18, 347.2975pt x 262.9825pt>
+File: figures//regression-CM-training.png Graphic file (type png)
+<use figures//regression-CM-training.png>
+Package pdftex.def Info: figures//regression-CM-training.png  used on input lin
+e 99.
+(pdftex.def)             Requested size: 173.64832pt x 131.49092pt.
+ [4 <./figures//regression-CM-training.png>]
+<figures//regression-CM-testing.png, id=25, 347.2975pt x 262.9825pt>
+File: figures//regression-CM-testing.png Graphic file (type png)
+<use figures//regression-CM-testing.png>
+Package pdftex.def Info: figures//regression-CM-testing.png  used on input line
+ 127.
+(pdftex.def)             Requested size: 173.64832pt x 131.49092pt.
+ [5 <./figures//regression-CM-testing.png>]
+<figures//naivebayes-CM-training.png, id=30, 347.2975pt x 262.9825pt>
+File: figures//naivebayes-CM-training.png Graphic file (type png)
+<use figures//naivebayes-CM-training.png>
+Package pdftex.def Info: figures//naivebayes-CM-training.png  used on input lin
+e 159.
+(pdftex.def)             Requested size: 173.64832pt x 131.49092pt.
+ [6 <./figures//naivebayes-CM-training.png>]
+<figures//naivebayes-CM-testing.png, id=35, 341.275pt x 262.9825pt>
+File: figures//naivebayes-CM-testing.png Graphic file (type png)
+<use figures//naivebayes-CM-testing.png>
+Package pdftex.def Info: figures//naivebayes-CM-testing.png  used on input line
+ 187.
+(pdftex.def)             Requested size: 170.63707pt x 131.49092pt.
+ [7 <./figures//naivebayes-CM-testing.png>]
+<figures//datavis-train.png, id=41, 158.16806pt x 99.93909pt>
+File: figures//datavis-train.png Graphic file (type png)
+<use figures//datavis-train.png>
+Package pdftex.def Info: figures//datavis-train.png  used on input line 199.
+(pdftex.def)             Requested size: 355.87724pt x 224.86235pt.
+
+Overfull \hbox (8.75371pt too wide) in paragraph at lines 199--201
+ [][] 
+ []
+
+<figures//datavis-test.png, id=42, 158.16806pt x 99.93909pt>
+File: figures//datavis-test.png Graphic file (type png)
+<use figures//datavis-test.png>
+Package pdftex.def Info: figures//datavis-test.png  used on input line 208.
+(pdftex.def)             Requested size: 355.87724pt x 224.86235pt.
+
+Overfull \hbox (8.75371pt too wide) in paragraph at lines 208--210
+ [][] 
+ []
+
+[8 <./figures//datavis-train.png>]
+<figures//fta-high.png, id=47, 700.6175pt x 412.54124pt>
+File: figures//fta-high.png Graphic file (type png)
+<use figures//fta-high.png>
+Package pdftex.def Info: figures//fta-high.png  used on input line 220.
+(pdftex.def)             Requested size: 350.30789pt x 206.27011pt.
+
+Overfull \hbox (3.18436pt too wide) in paragraph at lines 220--222
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//fta-low.png, id=48, 700.6175pt x 412.54124pt>
+File: figures//fta-low.png Graphic file (type png)
+<use figures//fta-low.png>
+Package pdftex.def Info: figures//fta-low.png  used on input line 227.
+(pdftex.def)             Requested size: 350.30789pt x 206.27011pt.
+
+Overfull \hbox (3.18436pt too wide) in paragraph at lines 227--229
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//fta-medium.png, id=49, 700.6175pt x 412.54124pt>
+File: figures//fta-medium.png Graphic file (type png)
+<use figures//fta-medium.png>
+Package pdftex.def Info: figures//fta-medium.png  used on input line 234.
+(pdftex.def)             Requested size: 350.30789pt x 206.27011pt.
+
+Overfull \hbox (3.18436pt too wide) in paragraph at lines 234--236
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./figures//datavis-test.png>] [10 <./figures//fta-high.png>] [11 <./figures
+//fta-low.png>] (Mini-Project.bbl [12 <./figures//fta-medium.png>]) [13
+
+]
+(Mini-Project.aux) ) 
+Here is how much of TeX's memory you used:
+ 2952 strings out of 478338
+ 51521 string characters out of 2834776
+ 358288 words of memory out of 3000000
+ 21349 multiletter control sequences out of 15000+600000
+ 473896 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,8n,67p,1267b,248s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1000.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aren Deza/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aren Deza/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/A
+ren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Mini-Project.pdf (13 pages, 246007 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
