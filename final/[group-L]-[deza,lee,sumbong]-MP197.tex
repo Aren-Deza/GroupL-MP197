@@ -6,7 +6,7 @@
 \documentclass[runningheads]{llncs}
 
 % Formatting packages
-\usepackage{indentfirst, float, graphicx}
+\usepackage{indentfirst, float, graphicx, hyperref}
 % Reference packages
 \usepackage[square, sort, comma, numbers]{natbib}
 
@@ -16,7 +16,20 @@
 
 \title{\textbf{\LARGE A Comparative Study on Lung Cancer Prediction using Naïve Bayes and Logistic Regression}}
 
-\author{Alyssa Alexandra Lee\inst{1}\and Aren Deza\inst{1}\and Joseph Victor Sumbong\inst{1}}
+\author{Alyssa Alexandra Lee\inst{1} \texttt{aslee2@up.edu.ph} \and
+\\ Aren Deza\inst{1} \texttt{apdeza1@up.edu.ph} \and
+\\ Joseph Victor Sumbong\inst{1} \texttt{jssumbong@up.edu.ph} \and
+\\ Ara Abigail Ambita\inst{1}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead[\small \thepage \ \ A. Lee et al.]{}
+\rhead[]{\small Lung Cancer Prediction using Naïve Bayes and Logistic Regression \ \ \thepage}
+\cfoot{}  
+\lfoot[\small \href{https://github.com/Aren-Deza/GroupL-MP197}{Github Link}]{}
+\rfoot[]{\small \href{https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link}{Dataset Used}}
+
 \authorrunning{A. Lee et al.}
 \titlerunning{Lung Cancer Prediction using Naïve Bayes and Logistic Regression}
 \institute{University of The Philippines Visayas, Miag-ao, Iloilo City}
@@ -26,6 +39,13 @@
 
 \pagenumbering{roman}
 \pagenumbering{arabic}
+
+\begin{abstract}
+The abstract should briefly summarize the contents of the paper in
+15--250 words.
+
+\keywords{First keyword  \and Second keyword \and Another keyword.}
+\end{abstract}
 
 \section{Introduction}
 
@@ -54,7 +74,7 @@ The researchers will implement and compare Machine learning models that can iden
 The researchers will not be able to implement a Machine learning model that can identify an individual’s likelihood of developing lung cancer.
 
 \subsection{Scope and Delimitation}
-The scope of this paper is to determine only lung cancer likelihood using the dataset of the user, “The Devastator”, from the website, Kaggle. It will also only implement and compare Naive Bayes and Logistic Regression as its Machine Learning models. The researchers will make use of the following tools: (1) Jupyter Notebook, (2) Google Docs, (3) Github, and (4) TeXworks. The LaTeX packages used are the following: (1) color, (2) graphicx, (3) amsmath, (4) listings, (5) pdflscape, (6) geometry, and (7) natbib. The Python packages that will be employed are: (1) Pandas, (2) NumPy, (3) scikit-learn, and (4) Matplotlib which will be used in implementing the models.
+The scope of this paper is to determine only lung cancer likelihood using the dataset of the user, “The Devastator”, from the website, Kaggle. It will also only implement and compare Naive Bayes and Logistic Regression as its Machine Learning models. The researchers will make use of the following tools: (1) Jupyter Notebook, (2) Google Docs, (3) Github, and (4) TeXworks. The LaTeX packages used are the following: (1) indentfirst, (2) float, (3) graphicx, (4) hyperref, (5) fancyhdr, and (6) natbib. The Python packages that will be employed are: (1) Pandas, (2) NumPy, (3) scikit-learn, and (4) Matplotlib which will be used in implementing the models.
 
 The paper will not use any other dataset aside from the one mentioned above. It will also not predict whether a patient has lung cancer or not, but rather only the patient’s likelihood of developing lung cancer. Additionally, it will not predict the likelihood of other types of cancer. It will only use the following features: (1) age; (2) gender; (3) level of air pollution exposure; (4) level of alcohol use; (5) level of dust allergy; (6) level of occupational hazards; (7) level of genetic risk; (8) level of chronic lung disease; (9) level of balanced diet; (10) level of obesity; (11) level of smoking; (12) level of passive smoker; (13) level of chest pain; (14) level of coughing of blood; (15) level of fatigue; (16) level of weight loss; (17) level of shortness of breath; (18) level of wheezing; (19) level of swallowing difficulty; (20) and level of clubbing of finger nails.
 
@@ -93,7 +113,7 @@ weighted avg & 0.99 & 0.99 & 0.99 & 750 \\ \hline
 
 Within the training set, the Logistic Regression model possessed an accuracy of 99.2\%, with the macro average of precision, recall, and f1-score all being 99\%. 
 
-\begin{figure}[ht]           	 
+\begin{figure}[H]           	 
 \centering               	 
 \caption{Confusion matrix for Linear Regression on training set}
 \includegraphics[scale=0.5]{regression-CM-training.png}  	 
