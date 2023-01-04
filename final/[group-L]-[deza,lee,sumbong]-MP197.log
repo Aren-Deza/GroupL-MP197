@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  3 JAN 2023 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  4 JAN 2023 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -439,17 +439,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 101.
-<figures//regression-CM-training.png, id=61, 347.2975pt x 262.9825pt>
+<figures//regression-CM-training.png, id=59, 347.2975pt x 262.9825pt>
 File: figures//regression-CM-training.png Graphic file (type png)
 <use figures//regression-CM-training.png>
 Package pdftex.def Info: figures//regression-CM-training.png  used on input lin
 e 119.
 (pdftex.def)             Requested size: 173.64832pt x 131.49092pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5 <./figures//regression-CM-training.png>]
+ [4] [5 <./figures//regression-CM-training.png>]
 <figures//regression-CM-testing.png, id=79, 347.2975pt x 262.9825pt>
 File: figures//regression-CM-testing.png Graphic file (type png)
 <use figures//regression-CM-testing.png>
@@ -527,11 +523,11 @@ not changed.
 Here is how much of TeX's memory you used:
  9380 strings out of 478338
  151500 string characters out of 2834776
- 462365 words of memory out of 3000000
+ 463365 words of memory out of 3000000
  27632 multiletter control sequences out of 15000+600000
  474401 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,1289b,466s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,13n,77p,1289b,516s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk> <C:\Users\Aren Deza\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\tcrm0900.pk><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/t
@@ -544,7 +540,7 @@ pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr9.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on [group-L]-[deza,lee,sumbong]-MP197.pdf (14 pages, 277872 byte
+Output written on [group-L]-[deza,lee,sumbong]-MP197.pdf (14 pages, 279634 byte
 s).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
