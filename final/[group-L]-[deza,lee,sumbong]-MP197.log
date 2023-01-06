@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  4 JAN 2023 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.22)  6 JAN 2023 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,7 +523,7 @@ not changed.
 Here is how much of TeX's memory you used:
  9380 strings out of 478338
  151500 string characters out of 2834776
- 463365 words of memory out of 3000000
+ 463393 words of memory out of 3000000
  27632 multiletter control sequences out of 15000+600000
  474401 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -540,7 +540,7 @@ pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr9.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb><C:/Users/Aren Deza/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on [group-L]-[deza,lee,sumbong]-MP197.pdf (14 pages, 279634 byte
+Output written on [group-L]-[deza,lee,sumbong]-MP197.pdf (14 pages, 280314 byte
 s).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
